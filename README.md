@@ -71,21 +71,6 @@ user = int(
 pc = rd.randint(1,3)
 ```
 
-
-```
-if pc == user:
-    text()
-    print("Tie :/")
-elif (user == 1 and pc == 3) or (user == 2 and pc == 1) or (user == 3 and pc == 2):
-    text()
-    print("You win! :D")
-elif (user == 1 and pc == 2) or (user == 2 and pc == 3) or (user == 3 and pc == 1):
-    text()
-    print("You lost! :(")
-else:
-        print("Please, choose a number between 1 and 3")
-```
-
 Now I write the line of code with the possible results that there are. Let's remember that there are three: defeat, draw and victory. To do this I establish three **if**:
 
 > 1. Tie: if both **pc** and **user** have the same hand. I indicate this with an exactly equal (**==**).
